@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 8px;
+}
+
+.colorSquare,
+input {
+  width: 90%;
+}
+
+.colorSquare {  
+  height: 200px;
+  border: 1px solid;
+  border-radius: 8px;
+  box-shadow: 2px -2px 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.inputForm > label {
+  display: none;
+}
+
+input {
+  height: 30px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+input::placeholder {
+  font-size: 18px;
+}
